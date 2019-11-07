@@ -10,7 +10,7 @@ cities = {'CA': 'San Francisco', 'MI': 'Detroit', 'FL': 'Jacksonville'}
 
 # add some more cities
 cities['NY'] = 'New York'
-cities['OR'] = 'Jacksonville'
+cities['OR'] = 'Portland'
 # print out some cites
 print('-'*10)
 print("NY State has: ", cities['NY'])
@@ -28,7 +28,7 @@ for state, abbrev in list(states.items()):
 
 # print every city in state
 print('-'*10)
-for city, abbrev in list(states.items()):
+for abbrev, city in list(cities.items()):
     print(f"{abbrev} has the city {city}")
 
 # now do both at the same time
